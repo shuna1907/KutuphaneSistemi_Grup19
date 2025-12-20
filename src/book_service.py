@@ -30,3 +30,24 @@ class BookService:
 
         except FileNotFoundError:
             print("books.txt dosyasi bulunamadi!")
+
+def delete_book(self):
+    book_id = input("Silinecek kitap ID: ")
+
+    try:
+        with open("data/books.txt", "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        new_lines = [line for line in lines if not line.startswith(book_id + ",")]
+
+        if len(new_lines) == len(lines):
+            print(" Bu ID ile kayitli kitap bulunamadi.")
+            return
+
+        with open("data/books.txt", "w", encoding="utf-8") as f:
+            f.writelines(new_lines)
+
+        print("Kitap silindi.")
+
+    except FileNotFoundError:
+        print(" books.txt dosyasi bulunamadi!")
