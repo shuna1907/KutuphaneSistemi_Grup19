@@ -18,4 +18,5 @@ class FileManager:
     def write_all_lines(file_path, lines):
         """Tüm listeyi dosyaya baştan yazar (Güncelleme işlemleri için)."""
         with open(file_path, "w", encoding="utf-8") as f:
-            f.writelines(lines)
+            f.writelines(lines) 
+            """file_manager eklendi"""
