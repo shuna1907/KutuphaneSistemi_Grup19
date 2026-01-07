@@ -9,15 +9,15 @@ Proje, ekip çalışması kapsamında oluşturulmuştur.
 - Temel yazılım geliştirme pratiği kazanmak
 
 ## Kullanılan Teknolojiler
-- Java
+- Python
 - Git
 - GitHub
 
 ## Ekip Üyeleri (Grup 19)
-- nagham26-hub  
-- shuna1907  
-- sarakenno6-png 
-- Zeynebuuu
+- Sümeyra Çetin  
+- Sarah Kenno
+- Nagam Amın 
+- Zeinabou Taleb Moussa
 
 ## Notlar
 Bu proje eğitim amaçlıdır.
